@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#controls i{
+    padding: 15px;
+    font-size: 30px;
+    color: #27916e;
+}
+* i:hover{cursor: pointer;}
+
+#image{
+    border: 2px solid #9841a6;
+    padding: 5px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+#star{color: #a89898;}
+#collapse-bar, #song-list-icon{color: #077e81; font-size: 20px;}
+#repeat-icon{ font-size: 18px; color: darkseagreen}
+
+.list{
+    border-bottom: 2px solid #5b145a;
+    margin-top: 2px;
+}
+
+#collapse-bar:hover, #song-list-icon:hover{font-size: 24px;}
+
+.list:hover{
+    cursor: pointer;
+    background-color: #dedcdc;
+}
+
+#song-list ul, #ul{
+    overflow:hidden;
+    margin-bottom: 10px;
+}
+
